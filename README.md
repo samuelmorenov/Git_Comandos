@@ -4,14 +4,9 @@
   `git checkout --track origin/develop`
 
 
-- Añadir todos los cambios para hacer el commit: 
+- Añadir todos los cambios y hacer el commit: 
 
-  `git add .`
-
-
-- Hacer el commit con comentario: 
-
-  `git commit -m "comentario"`
+  `git add .` `git commit -m "comentario"`
   
 - Crear una etiqueta
 
@@ -20,3 +15,15 @@
 - Añadir cambios al ultimo commit
 
   `git add .` `git commit --amend -m "comentario"`
+  
+- Hacer un push forzando los cambios
+
+  `git push origin master --force-with-lease`
+
+- Deshacer un commit
+
+  `git revert [idCommit]`
+  
+- Deshacer un add
+
+  `git rm`
