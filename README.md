@@ -12,6 +12,8 @@
 
   `git tag` `git push --follow-tags`
   
+  `git tag` `git push --tags`
+   
 - Añadir cambios al ultimo commit
 
   `git add .` `git commit --amend -m "comentario"`
