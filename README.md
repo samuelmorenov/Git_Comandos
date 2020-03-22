@@ -29,3 +29,7 @@
 - Deshacer un add
 
   `git rm`
+  
+- Borrar todos los cambios hechos desde el ultimo commit
+
+  `git reset --hard`
